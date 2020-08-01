@@ -1,4 +1,4 @@
-# CTF-PRACTISE
+## *Bandit OverTheWire -Wargame for practising security concepts*
 
 ## This is the screenshots of level 0 -> level 1
 ![image](https://user-images.githubusercontent.com/60177793/89107780-f91b2780-d450-11ea-9b16-a828006fd0fd.png)
