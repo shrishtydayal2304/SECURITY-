@@ -12,7 +12,7 @@
 ![image](https://user-images.githubusercontent.com/60177793/89198469-e593cc00-d5ca-11ea-92c9-9085eb3dcc36.png)
 
 ###### But the output using command gives a lot of junk that there is in the image.
-# so we can use strings with grep and pipe the output of the strings to grep that search for some part of the flag that always in the flag like “picoCTF”
+###### so we can use strings with grep and pipe the output of the strings to grep that search for some part of the flag that always in the flag like “picoCTF”
 ![image](https://user-images.githubusercontent.com/60177793/89198597-0eb45c80-d5cb-11ea-84b7-eae6454d592c.png)
 
 
