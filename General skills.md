@@ -1,4 +1,4 @@
-#Pico stf 2018 practice questions of general skills section
+# Pico ctf 2018 practice questions of general skills section
 
 # PIPE : General skills
 ![image](https://user-images.githubusercontent.com/60177793/89811722-afbb8e00-db5c-11ea-8269-302af7a663b5.png)
