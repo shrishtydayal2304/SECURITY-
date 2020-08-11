@@ -1,4 +1,4 @@
-# COMMAND INJECTION CHALLNEGE  : DAY 1
+# COMMAND INJECTION CHALLENGE  : DAY 1
 
 ![image](https://user-images.githubusercontent.com/60177793/89922197-56b32f00-dc1c-11ea-8bf5-dfe6e1cb338c.png)
 ![image](https://user-images.githubusercontent.com/60177793/89922250-66cb0e80-dc1c-11ea-947f-d18072a691ac.png)
