@@ -29,6 +29,7 @@ ANS:0
 
 
 # task 5
+![image](https://user-images.githubusercontent.com/60177793/90428835-32ef5d80-e0e2-11ea-8573-10372e54443c.png)
 
 
 # task 6
