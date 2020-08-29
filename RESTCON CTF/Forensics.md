@@ -24,3 +24,18 @@ After scanning the qr code we get the output as:
 ###### It is a png fil and we can use stego tool zsteg for that:  zsteg filename
 # Flag : RESTCON{1_eaten_Y0ur_Fl4g}
 
+# Binod
+###### Hey there, we recently came to know that a malware has spread across our network ever since Binod helped one of our Desk support team by giving an employee some malicious file.Your task is to check out this program and find out the flag , remember don't believe what you see.
+
+# I will use packet analyser tool wireshark:
+![image](https://user-images.githubusercontent.com/60177793/91632517-f800fa00-e9fe-11ea-8069-29b51a576b18.png)
+ ##### follow>tcp stream
+![image](https://user-images.githubusercontent.com/60177793/91632532-0ea75100-e9ff-11ea-9a4b-0f887d8c53b6.png)
+#####  I have exported a pdf file using wireshark through File > export object > http > binod.exe
+##### which was a pdf file
+![image](https://user-images.githubusercontent.com/60177793/91632557-2b438900-e9ff-11ea-9379-2e6b521d69b9.png)
+###### After opening the file in visual studio code(we can use other text editor too , i noticed that there is an javascript object and there is some hex content
+![image](https://user-images.githubusercontent.com/60177793/91632688-187d8400-ea00-11ea-9b1f-0480a2d85020.png)
+
+##### used hex to ascii :https://www.rapidtables.com/convert/number/hex-to-ascii.html
+![image](https://user-images.githubusercontent.com/60177793/91632642-d6544280-e9ff-11ea-9f9c-c1457a017d1d.png)
