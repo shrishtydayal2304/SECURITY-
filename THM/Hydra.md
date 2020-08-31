@@ -25,10 +25,10 @@
 ###### Use the hydra command for ssh
 ![image](https://user-images.githubusercontent.com/60177793/91706384-f456aa00-eb9b-11ea-9b2a-4e9f1bc32e01.png)
 ###### Now login using ssh username@ip
+![image](https://user-images.githubusercontent.com/60177793/91706463-0e908800-eb9c-11ea-9d14-bac41dcce70f.png)
+###### ls and cat to get the flag
 ![image](https://user-images.githubusercontent.com/60177793/91706472-13553c00-eb9c-11ea-801f-f1531483d010.png)
 
-###### ls and cat to get the flag
-![image](https://user-images.githubusercontent.com/60177793/91706463-0e908800-eb9c-11ea-9d14-bac41dcce70f.png)
 
 
 
