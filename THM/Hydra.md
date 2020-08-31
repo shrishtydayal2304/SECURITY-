@@ -10,10 +10,11 @@
 ![image](https://user-images.githubusercontent.com/60177793/91704859-c40e0c00-eb99-11ea-9f7d-9c874f7a20a8.png)
 
 ![image](https://user-images.githubusercontent.com/60177793/91703909-8f4d8500-eb98-11ea-8bae-226d38ba7b0d.png)
-![image](https://user-images.githubusercontent.com/60177793/91704124-c91e8b80-eb98-11ea-82a6-8d98b3059b02.png)
-![image](https://user-images.githubusercontent.com/60177793/91704280-084cdc80-eb99-11ea-9872-fc10eace814d.png)
-# Now will submit the username:molly and password:sunshine on the login page and we will get the flag as shown below:
-![image](https://user-images.githubusercontent.com/60177793/91704314-14389e80-eb99-11ea-9dc7-d6b445269e2e.png)
+![image](https://user-images.githubusercontent.com/60177793/91706947-bdcd5f00-eb9c-11ea-81fe-d38f1da0c369.png)
+###### Now will submit the username:molly and password:sunshine on the login page and we will get the flag as shown below:
+
+![image](https://user-images.githubusercontent.com/60177793/91707004-d3db1f80-eb9c-11ea-97e0-65bab86a51a7.png)
+
 
 # 2 )Use Hydra to bruteforce molly’s SSH password. What is flag 2?
 # Answer : THM{c8eeb0468febbadea859baeb33b2541b}
