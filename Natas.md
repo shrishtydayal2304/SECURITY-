@@ -48,3 +48,23 @@
 
 # level 4 -> level 5
 ![image](https://user-images.githubusercontent.com/60177793/92145328-af4da480-ee35-11ea-80c7-02808795199c.png)
+###### We change that Referer parameter value to Natas5
+![image](https://user-images.githubusercontent.com/60177793/92253629-5f321900-eeed-11ea-9479-4d18866d825c.png)
+
+###### After Forwarding the Request, we get the credentials of the user natas5.
+![image](https://user-images.githubusercontent.com/60177793/92253690-74a74300-eeed-11ea-9244-72b7ec35cdb0.png)
+![image](https://user-images.githubusercontent.com/60177793/92253804-99031f80-eeed-11ea-940a-f935602f8700.png)
+# pass :iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+
+![image](https://user-images.githubusercontent.com/60177793/92253499-3578f200-eeed-11ea-8554-e068bf41c002.png)
+
+# level 5 -> level 6
+![image](https://user-images.githubusercontent.com/60177793/92253949-ccde4500-eeed-11ea-8950-690eb9265e65.png)
+###### We capture the request in Burp Suite, here we see that there is a parameter named loggedin. It is set to 0. So we will set it to 1
+![image](https://user-images.githubusercontent.com/60177793/92254046-f13a2180-eeed-11ea-9b68-45486b82d13d.png)
+![image](https://user-images.githubusercontent.com/60177793/92254183-1e86cf80-eeee-11ea-969d-1800cbb90439.png)
+![image](https://user-images.githubusercontent.com/60177793/92254447-889f7480-eeee-11ea-92dd-7e1cb268a269.png)
+# pass : aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+
+
+
