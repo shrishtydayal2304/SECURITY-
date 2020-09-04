@@ -54,7 +54,7 @@
 ###### After Forwarding the Request, we get the credentials of the user natas5.
 ![image](https://user-images.githubusercontent.com/60177793/92253690-74a74300-eeed-11ea-9244-72b7ec35cdb0.png)
 ![image](https://user-images.githubusercontent.com/60177793/92253804-99031f80-eeed-11ea-940a-f935602f8700.png)
-# pass :iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+###### pass :iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
 
 ![image](https://user-images.githubusercontent.com/60177793/92253499-3578f200-eeed-11ea-8554-e068bf41c002.png)
 
@@ -64,7 +64,33 @@
 ![image](https://user-images.githubusercontent.com/60177793/92254046-f13a2180-eeed-11ea-9b68-45486b82d13d.png)
 ![image](https://user-images.githubusercontent.com/60177793/92254183-1e86cf80-eeee-11ea-969d-1800cbb90439.png)
 ![image](https://user-images.githubusercontent.com/60177793/92254447-889f7480-eeee-11ea-92dd-7e1cb268a269.png)
-# pass : aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+###### pass : aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+
+# level 6 -> level 7
+![image](https://user-images.githubusercontent.com/60177793/92255090-74a84280-eeef-11ea-89bd-69120a369940.png)
+###### secret key :FOEIUWGHFEEUHOFUOIU
+![image](https://user-images.githubusercontent.com/60177793/92255007-5b9f9180-eeef-11ea-820f-8a70b78ed3c5.png)
+
+![image](https://user-images.githubusercontent.com/60177793/92254920-3dd22c80-eeef-11ea-841c-cd8832f16637.png)
+![image](https://user-images.githubusercontent.com/60177793/92255260-ade0b280-eeef-11ea-9aac-ae06f39f9472.png)
+![image](https://user-images.githubusercontent.com/60177793/92255352-d1a3f880-eeef-11ea-9365-a61b3e0826cb.png)
+###### pass:7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
+
+
+# level 7 -> level 8
+![image](https://user-images.githubusercontent.com/60177793/92255493-087a0e80-eef0-11ea-95a9-4c96304d512d.png)
+![image](https://user-images.githubusercontent.com/60177793/92255656-4414d880-eef0-11ea-82a1-ee3d520f1d6a.png)
+###### So, we modify the link to read the password stored in the natas_webpass.
+###### natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8
+###### And we have the password for the next level. This is called command injection.
+![image](https://user-images.githubusercontent.com/60177793/92256837-d9fd3300-eef1-11ea-8293-1f095331af10.png)
+###### pass: DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe
+
+
+# level 8 -> level 9
+![image](https://user-images.githubusercontent.com/60177793/92257376-bf778980-eef2-11ea-830a-3e9d45f9843a.png)
+
+
 
 
 
