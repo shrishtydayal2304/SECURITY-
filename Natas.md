@@ -101,7 +101,16 @@
 
 
 
-###### pass :nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
+###### pass : nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
+
+# level 10->level 11
+![image](https://user-images.githubusercontent.com/60177793/92503174-81de6d80-f21e-11ea-8392-fdb6f360149d.png)
+![image](https://user-images.githubusercontent.com/60177793/92503313-b3573900-f21e-11ea-81e4-387354d3d2a6.png)
+###### We opened the source code and found that when we enter a keyword, it is passed via a function called passthru(). It takes the value in $key and it filters the input of ###### the characters (/;|&) as shown in the given image.
+###### So we can use (.*) to execute multiple commands
+![image](https://user-images.githubusercontent.com/60177793/92504135-d9310d80-f21f-11ea-92cd-08a3e400d929.png)
+###### pass: U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
+
 
 
 
