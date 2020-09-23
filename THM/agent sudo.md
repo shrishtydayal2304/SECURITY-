@@ -21,7 +21,7 @@
 ![image](https://user-images.githubusercontent.com/60177793/93985028-24abf580-fda2-11ea-963a-27bf8a8819ed.png)
 ###### So we used “zip2john” to crack the zip file for password with this command
 ###### ./zip2john 8702.zip > Output.txt and then we used john to crack the hash.
-![image](https://user-images.githubusercontent.com/60177793/93985238-69379100-fda2-11ea-9b87-6fb2549c651a.png)
+
 ![image](https://user-images.githubusercontent.com/60177793/93985264-72286280-fda2-11ea-9f28-b34faaafae92.png)
 ![image](https://user-images.githubusercontent.com/60177793/93985300-7ce2f780-fda2-11ea-849c-a0dd03ec1f39.png)
 
@@ -41,7 +41,6 @@
 ###### We searched on google and we got a vulnerability for Sudo for version 1.8.28 so we checked the version of sudo
 ###### Our sudo version is lower from 1.8.28 so we can exploit the machine.
 ![image](https://user-images.githubusercontent.com/60177793/93985889-4659ac80-fda3-11ea-9cfa-ac8a9779581a.png)
-![image](https://user-images.githubusercontent.com/60177793/93986009-6e491000-fda3-11ea-8ba5-857b2fdeb0a2.png)
 
 ###### Well, we are root now!
 
