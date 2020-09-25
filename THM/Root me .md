@@ -18,10 +18,8 @@
 ###### suid
 ![image](https://user-images.githubusercontent.com/60177793/94300286-65fcfa80-ff86-11ea-97d6-a4224cb35506.png)
 
-
-![image](https://user-images.githubusercontent.com/60177793/94300382-8b8a0400-ff86-11ea-9983-645fb023fb70.png)
 ![image](https://user-images.githubusercontent.com/60177793/94300411-980e5c80-ff86-11ea-961b-7e08a9b7368b.png)
-![image](https://user-images.githubusercontent.com/60177793/94300364-8036d880-ff86-11ea-9ab0-315376f27a99.png)
+![image](https://user-images.githubusercontent.com/60177793/94300382-8b8a0400-ff86-11ea-9983-645fb023fb70.png)
 
 
 
