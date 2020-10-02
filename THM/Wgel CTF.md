@@ -20,6 +20,17 @@
 ![image](https://user-images.githubusercontent.com/60177793/94951959-cf3eb980-0502-11eb-80e6-46b425696010.png)
 
 
+# Now if remember something at starting of this we had an ssh connection possible. and from the source code of the first web page we found an user name called jessie:-
+![image](https://user-images.githubusercontent.com/60177793/94952354-791e4600-0503-11eb-89e1-2b3f0c7a3651.png)
+##### now we need to give proper permissions to execute the file
+![image](https://user-images.githubusercontent.com/60177793/94952456-a5d25d80-0503-11eb-87ca-b2463ba29ab7.png)
+![image](https://user-images.githubusercontent.com/60177793/94952480-b1be1f80-0503-11eb-997b-069af1abba42.png)
+![image](https://user-images.githubusercontent.com/60177793/94952557-c8fd0d00-0503-11eb-844e-37874232fe68.png)
+
+![image](https://user-images.githubusercontent.com/60177793/94952519-bbe01e00-0503-11eb-9d7a-69a61e1d7eae.png)
+
+
+
 
 
 
