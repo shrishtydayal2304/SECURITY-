@@ -57,18 +57,19 @@ Difficulty: LOW
 Now start your machine and login to DVWA, then go to DVWA security tab and change the difficulty level to low.
 
 
+![image](https://user-images.githubusercontent.com/60177793/95014859-6b81d100-0667-11eb-95c1-804a66fe5cac.png)
 
-Image for post
+
 
 Go to file inclusion tab and change the URL from incude.php to ?page=../../../../../../etc/passwd.
 
 
 
-Image for post
+![image](https://user-images.githubusercontent.com/60177793/95014869-79cfed00-0667-11eb-9b37-8657da10bd62.png)
+medium:
 
 
 
-Image for post
 
 change the URL from?page=../../../../../../etc/passwd to ?page=../../../../../../proc/version.
 
@@ -82,20 +83,11 @@ Now, go on and try the exploits we used in low difficulty. You will notice that 
 
 
 
-Image for post
+![image](https://user-images.githubusercontent.com/60177793/95014888-93713480-0667-11eb-9282-574943cadd2f.png)
+![image](https://user-images.githubusercontent.com/60177793/95014899-a552d780-0667-11eb-8e02-41474d09b40a.png)
 
 Change include.php to /etc/passwd
-
-
-
-Image for post
-
 Now,change the URL from?page=/etc/passwd to ?page=/proc/version.
-
-
-
-Image for post
-
 As you can see, it worked by directly entering the name of the file. Let’s level up the difficulty to HIGH.
 
 Difficulty: HIGH
@@ -117,6 +109,9 @@ Image for post
 You will get the data of /etc/passwd file.
 
 This is how you can exploit file inclusion vulnerability using local files on the webserver.
+
+
+![image](https://user-images.githubusercontent.com/60177793/95014907-b3a0f380-0667-11eb-985a-afe2d32da724.png)
 
 
 
