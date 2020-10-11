@@ -19,9 +19,10 @@ Flags we used
 ![image](https://user-images.githubusercontent.com/60177793/95357952-228b8000-08e6-11eb-840a-3346ef812680.png)
 ![image](https://user-images.githubusercontent.com/60177793/95357986-2b7c5180-08e6-11eb-8cc1-e2f75d713b64.png)
 ##### After login, we have a command prompt it seems we have got the ability to run commands. like i tried ls , so we will try id and whoami to know more info and use netcat 
-
-
-
+##### use reverse shell to as here we can run command:
+![image](https://user-images.githubusercontent.com/60177793/95681315-b6b65980-0bfc-11eb-88a0-cefb39fdf8ce.png)
+![image](https://user-images.githubusercontent.com/60177793/95681345-ecf3d900-0bfc-11eb-929a-d4812f128fe0.png)
+![image](https://user-images.githubusercontent.com/60177793/95681352-faa95e80-0bfc-11eb-9e19-c56a4de3c21f.png)
 
 ##### SSH 
 ![image](https://user-images.githubusercontent.com/60177793/95489948-23d7ae00-09b5-11eb-9e00-e4d1ce71c2a3.png)
