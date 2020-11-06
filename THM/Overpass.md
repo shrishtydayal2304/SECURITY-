@@ -29,4 +29,13 @@
 ##### We are greeted as the Administrator and there is a note to James. Before we go any further, there are two ways of SSH authentication:By username and password and By username and public-private keypairs.
 ![image](https://user-images.githubusercontent.com/60177793/98363938-d737cf00-2055-11eb-85cb-7caea0c5b511.png)
 #### Next step is:In here, the private key of the user is exposed 🤦‍♂ ️. The other part i.e. the username could be easily guessed: james. The next step is trying to login through ssh. So, I copied this private key to a file and using the -i flag in ssh, I can provide the private key (usually named id_rsa)
+ ##### Now save the private key and try to login via ssh:
+
+![image](https://user-images.githubusercontent.com/60177793/98371150-b7a6a380-2061-11eb-9f28-68395e6a4018.png)
+##### So we need to find the password using the password cracker like ssh2john and thenn try to loginnn!!!
+![image](https://user-images.githubusercontent.com/60177793/98371166-be351b00-2061-11eb-9b1a-923f8c37b6a4.png)
+![image](https://user-images.githubusercontent.com/60177793/98371174-c1c8a200-2061-11eb-86f3-76ba2f4e5643.png)
+#### We need to change the file permission using chmod 600 id_rsa
+![image](https://user-images.githubusercontent.com/60177793/98371185-c5f4bf80-2061-11eb-8738-40fae5120624.png)
+
 
