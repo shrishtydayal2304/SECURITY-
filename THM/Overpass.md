@@ -24,3 +24,9 @@
 ![image](https://user-images.githubusercontent.com/60177793/98361140-00099580-2051-11eb-988a-6fb9da174083.png)
 ![image](https://user-images.githubusercontent.com/60177793/98361153-07c93a00-2051-11eb-8e1a-69073f516e8f.png)
 ![image](https://user-images.githubusercontent.com/60177793/98361162-0dbf1b00-2051-11eb-92dc-7b9239dd5c7f.png)
+
+![image](https://user-images.githubusercontent.com/60177793/98363899-c6875900-2055-11eb-851b-5fe95f076c99.png)
+##### We are greeted as the Administrator and there is a note to James. Before we go any further, there are two ways of SSH authentication:By username and password and By username and public-private keypairs.
+![image](https://user-images.githubusercontent.com/60177793/98363938-d737cf00-2055-11eb-85cb-7caea0c5b511.png)
+#### Next step is:In here, the private key of the user is exposed 🤦‍♂ ️. The other part i.e. the username could be easily guessed: james. The next step is trying to login through ssh. So, I copied this private key to a file and using the -i flag in ssh, I can provide the private key (usually named id_rsa)
+
